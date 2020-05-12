@@ -3,5 +3,6 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in_short" />
     <string name="LOGIN">LOGIN</string>
+    <string name="KIRIM">KIRIM</string>
 
 </resources>
