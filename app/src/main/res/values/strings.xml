@@ -3,5 +3,20 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in_short" />
     <string name="LOGIN">LOGIN</string>
+    <string name="title_activity_homekelas">HomekelasActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">SI NGUJI SMAPA</string>
+    <string name="nav_header_subtitle">nama guru</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_akunsaya">Akun Saya</string>
+    <string name="menu_bantuan">Bantuan</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="menu_home">Home</string>
+
+    <string name="home_second">Home Second</string>
 
 </resources>
