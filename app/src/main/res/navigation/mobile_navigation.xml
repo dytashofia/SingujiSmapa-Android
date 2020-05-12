@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_akunsaya">
+    app:startDestination="@+id/nav_home">
 
     <fragment
         android:id="@+id/nav_akunsaya"
@@ -34,6 +34,12 @@
         android:name="com.example.loginactivity.ui.bantuan.BantuanFragment"
         android:label="@string/menu_bantuan"
         tools:layout="@layout/fragment_bantuan" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.loginactivity.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_bantuan"
+        />
 
     <fragment
         android:id="@+id/nav_logout"
