@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:title="@string/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        />
+
+    <item
+        android:id="@+id/nav_jadwal"
+        android:title="Jadwal"
+        android:icon="@drawable/ic_notifications_active_black_24dp"
+        />
+    <item
+        android:id="@+id/nav_laporan"
+    android:title="Laporan"
+    android:icon="@drawable/ic_assessment_black_24dp"
+        />
+    <item
+        android:id="@+id/nav_akunsaya"
+        android:title="Saya"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        />
+    </group>
+</menu>

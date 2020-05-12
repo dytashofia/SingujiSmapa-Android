@@ -7,6 +7,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+<<<<<<< HEAD
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".LupaPasswordActivity"></activity>
@@ -14,10 +15,28 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+=======
+        android:supportsRtl="true">
+>>>>>>> a1c0cc175447d53a6226d36f5678ed74cab9228f
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity
+            android:name=".HomekelasActivity"
+            android:label="@string/title_activity_homekelas"
+            android:theme="@style/AppTheme.NoActionBar">
+            
         </activity>
+
+
+        <activity android:name=".SplashActivity"></activity>
+
+        <activity android:name=".LoginActivity" >
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

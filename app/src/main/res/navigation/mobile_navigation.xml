@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_akunsaya"
+        android:name="com.example.loginactivity.ui.akunsaya.AkunsayaFragment"
+        android:label="@string/menu_akunsaya"
+        tools:layout="@layout/fragment_akunsaya">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="com.example.loginactivity.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_akunsaya" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_banntuan"
+        android:name="com.example.loginactivity.ui.bantuan.BantuanFragment"
+        android:label="@string/menu_bantuan"
+        tools:layout="@layout/fragment_bantuan" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.loginactivity.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_bantuan"
+        />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:label="@string/menu_logout"
+   />
+
+</navigation>

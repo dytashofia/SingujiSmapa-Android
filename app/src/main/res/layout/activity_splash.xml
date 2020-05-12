@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/atas"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/atas" />
+
+    <ImageView
+        android:id="@+id/bawah"
+        android:layout_width="230dp"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="220dp"
+        android:layout_marginBottom="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bawah" />
+
+    <ImageView
+        android:id="@+id/logosma"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@id/teks1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logosma" />
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SI NGUJI SMAPA"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/teks1"
+        android:textSize="32sp"/>
+
+
+</RelativeLayout>
