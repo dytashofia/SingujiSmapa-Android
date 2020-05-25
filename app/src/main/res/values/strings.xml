@@ -3,7 +3,7 @@
     <string name="prompt_password">Password</string>
     <string name="action_sign_in_short" />
     <string name="LOGIN">LOGIN</string>
-<<<<<<< HEAD
+>>>>>>> HEAD
     <string name="KIRIM">KIRIM</string>
 =======
     <string name="title_activity_homekelas">HomekelasActivity</string>
@@ -21,6 +21,9 @@
     <string name="menu_home">Home</string>
 
     <string name="home_second">Home Second</string>
->>>>>>> a1c0cc175447d53a6226d36f5678ed74cab9228f
+
+
+    <string name="lupa_password">Lupa Password</string>
+    >>>>>>> a1c0cc175447d53a6226d36f5678ed74cab9228f
 
 </resources>
