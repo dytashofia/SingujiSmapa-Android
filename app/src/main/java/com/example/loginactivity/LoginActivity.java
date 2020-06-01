@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        dbHelper = new dbHelper((this));
+
 
         /* Inisialisasi variable dengan view username dan view password dari activity_login.xml */
         vUsername = findViewById(R.id.username);
@@ -43,7 +43,15 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent homeIntent = new Intent(LoginActivity(this), HomekelasActivity);
+                Intent homeIntent = new Intent(new LoginActivity.this, HomekelasActivity.class);
+                startActivity(homeIntent);
+            }
+        });
+
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String username = vUsername.getText()
             }
         });
 
