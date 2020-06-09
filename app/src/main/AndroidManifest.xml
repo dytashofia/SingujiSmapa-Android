@@ -14,13 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
+
             <activity android:name=".LupaPasswordActivity"/>
             <activity android:name=".LoginActivity" />
             <activity android:name=".MainActivity"/>
-                <intent-filter>
+                <!--<intent-filter>
                         <action android:name="android.intent.action.MAIN" />
-                </intent-filter>
+                </intent-filter>-->
             <activity
                 android:name=".HomekelasActivity"
                 android:label="@string/title_activity_homekelas"
@@ -31,26 +31,5 @@
                 </intent-filter>
             </activity>
             <activity android:name=".SplashActivity"/>
-=======
-        <activity android:name=".Score_remidial"></activity>
-        <activity android:name=".LupaPasswordActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".HomekelasActivity"
-            android:label="@string/title_activity_homekelas"
-            android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".SplashActivity" />
->>>>>>> f23ae81d145b6990ca4a25fd160a034e5b3c68f6
     </application>
 </manifest>

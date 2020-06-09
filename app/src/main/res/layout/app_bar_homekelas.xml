@@ -21,7 +21,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_homekelas" />
-    <include layout="@layout/bottomnav_homekelas" />
+    <!--<include layout="@layout/bottomnav_homekelas" />-->
 
 
 

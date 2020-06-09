@@ -43,15 +43,15 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent homeIntent = new Intent(new LoginActivity.this, HomekelasActivity.class);
-                startActivity(homeIntent);
+               // Intent homeIntent = new Intent(new LoginActivity.this, HomekelasActivity.class);
+               // startActivity(homeIntent);
             }
         });
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String username = vUsername.getText()
+                //String username = vUsername.getText()
             }
         });
 
