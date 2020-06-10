@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.loginactivity">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -14,6 +13,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity android:name=".Score_remidial" />
+        <activity android:name=".LupaPasswordActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+        </intent-filter>
+
+        <activity
+            android:name=".HomekelasActivity"
+            android:label="@string/title_activity_homekelas"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SplashActivity" />
+
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+        </intent-filter>
+
+        <activity android:name=".ui.Preference" />
+=======
 
             <activity android:name=".LupaPasswordActivity"/>
             <activity android:name=".LoginActivity" />
@@ -31,5 +58,7 @@
                 </intent-filter>
             </activity>
             <activity android:name=".SplashActivity"/>
+>>>>>>> d94aaa4bf324ac7610b93c2310106fbf6a1bc496
     </application>
+
 </manifest>
