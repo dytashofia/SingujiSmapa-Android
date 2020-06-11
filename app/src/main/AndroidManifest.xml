@@ -13,6 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+
+
         <activity android:name=".Score_remidial" />
         <activity android:name=".LupaPasswordActivity" />
         <activity android:name=".LoginActivity" />
@@ -29,12 +32,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplashActivity" />
-
-
         <activity android:name=".ui.Preference" />
-
-
-
     </application>
-
 </manifest>
