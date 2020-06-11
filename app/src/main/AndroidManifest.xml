@@ -38,8 +38,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplashActivity" />
-
         <activity android:name=".ui.Preference" />
     </application>
-
 </manifest>
