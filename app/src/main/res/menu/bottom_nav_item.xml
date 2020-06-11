@@ -9,10 +9,7 @@
         android:id="@+id/jadwal"
         android:icon="@drawable/jadwal"
         android:title="Jadwal" />
-    <item
-        android:id="@+id/homeclass"
-        android:icon="@drawable/homeclass"
-        android:title="Class" />
+
     <item
         android:id="@+id/laporan"
         android:icon="@drawable/laporan"
