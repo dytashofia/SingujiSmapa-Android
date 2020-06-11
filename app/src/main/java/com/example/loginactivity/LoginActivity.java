@@ -47,12 +47,7 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-<<<<<<< HEAD
                 login();
-=======
-               // Intent homeIntent = new Intent(new LoginActivity.this, HomekelasActivity.class);
-               // startActivity(homeIntent);
->>>>>>> d94aaa4bf324ac7610b93c2310106fbf6a1bc496
             }
         });
     }
@@ -79,7 +74,7 @@ public class LoginActivity extends AppCompatActivity {
                         } else {
                             //jika tidak maka
                             hideDialog();
-                            Toast.makeText(context, "Username tidak valid", Toast.LENGTH_LONG).show());
+                            Toast.makeText(context, "Username tidak valid", Toast.LENGTH_LONG).show();
                         }
                     }
                 },
@@ -91,8 +86,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
                 }) {
 
-            @Override
-<<<<<<< HEAD
+
             protected Map<String, String> getParamemeter() throws AuthFailureError {
                       Map<String, String> parameter = new HashMap<>();
                       parameter.put(Preference.KEY_USER_Login, username);
@@ -102,12 +96,6 @@ public class LoginActivity extends AppCompatActivity {
             };
         Volley.newRequestQueue(this).add(stringRequest);
     }
-=======
-            public void onClick(View v) {
-                //String username = vUsername.getText()
-            }
-        });
->>>>>>> d94aaa4bf324ac7610b93c2310106fbf6a1bc496
 
     private void PindahHomeKelas() {
         Intent intent = new Intent(context, HomekelasActivity.class);
@@ -127,7 +115,7 @@ public class LoginActivity extends AppCompatActivity {
 
 
 
-    }
+}
 
 
 
