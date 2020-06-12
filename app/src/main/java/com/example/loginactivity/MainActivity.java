@@ -1,13 +1,13 @@
 package com.example.loginactivity;
 
+import android.os.Bundle;
+import android.view.MenuItem;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.os.Bundle;
-import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity {
         getFragment(new home());
 
 
-
         btm_view = findViewById(R.id.bottom_view);
         btm_view.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -32,9 +31,6 @@ public class MainActivity extends AppCompatActivity {
                 }else if(item.getItemId() == R.id.jadwal) {
                     getSupportActionBar().setTitle("Jadwal");
                     getFragment(new jadwal());
-                }  else if(item.getItemId() == R.id.homeclass){
-                    getSupportActionBar().setTitle("Jadwal");
-                    getFragment(new homeclass());
 
                 }else if (item.getItemId() == R.id.laporan){
                     getSupportActionBar().setTitle("Laporan");
