@@ -21,12 +21,6 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />
 
-
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN"/>
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
         <activity
             android:name=".HomekelasActivity"
             android:label="@string/title_activity_homekelas"
@@ -38,6 +32,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplashActivity" />
-        <activity android:name=".ui.Preference" />
+
+        <activity android:name=".Preference" />
     </application>
 </manifest>
