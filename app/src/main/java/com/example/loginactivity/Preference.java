@@ -7,7 +7,7 @@ import android.preference.PreferenceManager;
 public class Preference {
     //Pendlekarasian untuk menghubungkan dengan URL file login_siswa.php
     //Alamat url disesuaikan dengan ip yang diterima
-    public static final String Login_URL = "https://192.168.43.209/FolderPHP/login_siswa.php";
+    public static final String Login_URL = "https://192.168.43.209/Folder%20PHP/login_siswa.php";
 
     /*
      ** Pendeklarasian key-data berupa String, sebagai wadah penyimpan data,
