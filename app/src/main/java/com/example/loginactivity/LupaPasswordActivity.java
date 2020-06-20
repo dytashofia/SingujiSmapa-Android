@@ -1,6 +1,5 @@
 package com.example.loginactivity;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,19 +11,19 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class LupaPasswordActivity extends AppCompatActivity {
-    ProgressDialog pDialog;
+    //ProgressDialog pDialog;
     private EditText email;
     private TextView tvKembaliLogin;
     private Context context;
     Button btnKirim;
 
 
-    
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lupa_password);
-        pDialog = new ProgressDialog(context);
+
         email = findViewById(R.id.email);
         tvKembaliLogin = findViewById(R.id.tvKembaliLogin);
         tvKembaliLogin.setOnClickListener(new View.OnClickListener() {
