@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/bg_item"
+    android:id="@+id/jdwl_item">
+
+    <TextView
+        android:id="@+id/mapel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:background="#00FFC7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgnote"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="35dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/mapel"
+        android:src="@drawable/jadwal_image"
+        android:contentDescription="@string/gambar" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mapel"
+        android:layout_toEndOf="@id/imgnote"
+        android:background="@drawable/color_background"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/namaguru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mapel"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/imgnote"
+        android:layout_marginStart="88dp"
+        android:textAlignment="center"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/waktumengerjakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/status"
+        android:layout_toEndOf="@id/imgnote"
+        android:background="@drawable/color_background"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/statussoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgnote"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="250dp"
+        android:textAlignment="center"
+        android:padding="5dp"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jumlahsoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgnote"
+        android:padding="3dp"
+        android:background="@drawable/color_background"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="150dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/soal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgnote"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:layout_marginStart="170dp"
+        android:text="@string/soal"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/waktumulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgnote"
+        android:padding="3dp"
+        android:background="@drawable/color_background"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="215dp"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        />
+    <TextView
+        android:id="@+id/menit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgnote"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:layout_marginStart="240dp"
+        android:text="@string/menit"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        />
+
+</RelativeLayout>
