@@ -24,5 +24,17 @@
     <string name="lupa_password">Lupa Password</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gambar">gambar</string>
+    <string name="jadwalimage">jadwalImage</string>
+    <string name="soal">Soal</string>
+    <string name="menit">Menit</string>
+    <string name="home">Home</string>
+    <string name="jadwal">Jadwal</string>
+    <string name="laporan">Laporan</string>
+    <string name="saya">Saya</string>
+    <string name="mulai">MULAI</string>
+    <string name="masukkan_token_soal_disini">Masukkan Token Soal disini</string>
+    <string name="quiz">QUIZ</string>
+    <string name="mata_pelajaran">MATA PELAJARAN</string>
 
 </resources>

@@ -4,18 +4,18 @@
     <item
         android:id="@+id/home"
         android:icon="@drawable/home"
-        android:title="Home" />
+        android:title="@string/home" />
     <item
         android:id="@+id/jadwal"
         android:icon="@drawable/jadwal"
-        android:title="Jadwal" />
+        android:title="@string/jadwal" />
 
     <item
         android:id="@+id/laporan"
         android:icon="@drawable/laporan"
-        android:title="Laporan" />
+        android:title="@string/laporan" />
     <item
         android:id="@+id/akun"
         android:icon="@drawable/akun"
-        android:title="Saya" />
+        android:title="@string/saya" />
 </menu>

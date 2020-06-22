@@ -30,7 +30,7 @@
         android:layout_height="60dp"
         android:layout_below="@id/mapel"
         android:src="@drawable/jadwal_image"
-        android:contentDescription="gambar" />
+        android:contentDescription="@string/gambar" />
 
     <TextView
         android:id="@+id/status"
@@ -116,7 +116,7 @@
         android:layout_marginTop="30dp"
         android:padding="3dp"
         android:layout_marginStart="170dp"
-        android:text="Soal"
+        android:text="@string/soal"
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="12sp"
@@ -141,7 +141,7 @@
         android:layout_marginTop="30dp"
         android:padding="3dp"
         android:layout_marginStart="240dp"
-        android:text="Menit"
+        android:text="@string/menit"
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="12sp"
